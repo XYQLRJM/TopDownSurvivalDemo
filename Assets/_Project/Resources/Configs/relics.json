@@ -1,0 +1,138 @@
+{
+  "relics": [
+    {
+      "id": "iron_chop",
+      "name": "铁斩波",
+      "rarity": "common",
+      "description": "攻击 +2，防御 +2",
+      "spritePath": "Item/TieZhanBo",
+      "effects": [
+        { "type": "attack", "value": 2 },
+        { "type": "defense", "value": 2 }
+      ]
+    },
+    {
+      "id": "shoes",
+      "name": "翅膀",
+      "rarity": "common",
+      "description": "移速 +4",
+      "spritePath": "Item/ChiBang",
+      "effects": [
+        { "type": "moveSpeed", "value": 4 }
+      ]
+    },
+    {
+      "id": "great_sword",
+      "name": "大剑",
+      "rarity": "common",
+      "description": "暴击率 +10%",
+      "spritePath": "Item/DaJian",
+      "effects": [
+        { "type": "critRate", "value": 10 }
+      ]
+    },
+    {
+      "id": "potion",
+      "name": "带骨肉",
+      "rarity": "common",
+      "description": "每 3 秒自动回复 1 点生命",
+      "spritePath": "Item/DaiGuRou",
+      "effects": [
+        { "type": "regen", "value": 1, "interval": 3 }
+      ]
+    },
+    {
+      "id": "jar",
+      "name": "箱子",
+      "rarity": "common",
+      "description": "获得60金币",
+      "spritePath": "Item/XiangZi",
+      "effects": [
+        { "type": "gold", "value": 60 }
+      ]
+    },
+    {
+      "id": "crit_heart",
+      "name": "鬼火",
+      "rarity": "uncommon",
+      "description": "你的暴击造成 3 倍伤害",
+      "spritePath": "Item/GuiHuo",
+      "effects": [
+        { "type": "critDamageMultiplier", "value": 3 }
+      ]
+    },
+    {
+      "id": "shell",
+      "name": "重盾",
+      "rarity": "uncommon",
+      "description": "将你的移速值加到防御上，你的移速变为 0",
+      "spritePath": "Item/ZhongDun",
+      "effects": [
+        { "type": "convertMoveSpeedToDefense" }
+      ]
+    },
+    {
+      "id": "triple_shot",
+      "name": "箭袋",
+      "rarity": "uncommon",
+      "exclusiveCharacter": "archer",
+      "description": "你的弓箭变为分叉的三支，但每支伤害变为原来的 60%",
+      "spritePath": "Item/JianDai",
+      "effects": [
+        { "type": "tripleShot", "damageMultiplier": 0.6 }
+      ]
+    },
+    {
+      "id": "blood_drink",
+      "name": "饮血",
+      "rarity": "uncommon",
+      "exclusiveCharacter": "warrior",
+      "description": "你的暴击伤害的 10% 回复自身生命",
+      "spritePath": "Item/YinXue",
+      "effects": [
+        { "type": "critLifeSteal", "value": 0.1 }
+      ]
+    },
+    {
+      "id": "desperate",
+      "name": "不顾一切",
+      "rarity": "uncommon",
+      "description": "属性按数值大小顺序分配为：攻击、暴击、移速、防御、生命",
+      "spritePath": "Item/BuGuYiQie",
+      "effects": [
+        { "type": "reorderStats" }
+      ]
+    },
+    {
+      "id": "tail",
+      "name": "龙爪",
+      "rarity": "rare",
+      "description": "当你生命耗尽时，回复最大生命的 50%，只能触发一次",
+      "spritePath": "Item/LongZhua",
+      "effects": [
+        { "type": "reviveOnce", "hpPercent": 0.5 }
+      ]
+    },
+    {
+      "id": "demon_contract",
+      "name": "恶魔眼",
+      "rarity": "rare",
+      "description": "你造成伤害的 50% 回复自身生命，但你每秒损失 1 点生命",
+      "spritePath": "Item/EMoYan",
+      "effects": [
+        { "type": "lifeSteal", "value": 0.5 },
+        { "type": "hpDrainPerSecond", "value": 1 }
+      ]
+    },
+    {
+      "id": "silver_bullet",
+      "name": "勇气头盔",
+      "rarity": "rare",
+      "description": "对 Boss 的伤害翻倍",
+      "spritePath": "Item/YongQiTouKui",
+      "effects": [
+        { "type": "bossDamageMultiplier", "value": 2 }
+      ]
+    }
+  ]
+}

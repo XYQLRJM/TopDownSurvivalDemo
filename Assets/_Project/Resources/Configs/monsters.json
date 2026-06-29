@@ -1,0 +1,84 @@
+{
+  "monsters": [
+    {
+      "id": "monster_1",
+      "name": "怪物1",
+      "maxHp": 6,
+      "attack": 6,
+      "defense": 3,
+      "moveSpeed": 5,
+      "behaviorType": "chase_contact",
+      "prefabPath": "Prefabs/Character/Monster1"
+    },
+    {
+      "id": "monster_2",
+      "name": "怪物2",
+      "maxHp": 10,
+      "attack": 8,
+      "defense": 5,
+      "moveSpeed": 5,
+      "behaviorType": "chase_contact",
+      "prefabPath": "Prefabs/Character/Monster2"
+    },
+    {
+      "id": "monster_3",
+      "name": "怪物3",
+      "maxHp": 12,
+      "attack": 12,
+      "defense": 5,
+      "moveSpeed": 0,
+      "behaviorType": "ranged_fireball",
+      "prefabPath": "Prefabs/Character/Monster3"
+    },
+    {
+      "id": "monster_4",
+      "name": "怪物4",
+      "maxHp": 15,
+      "attack": 12,
+      "defense": 9,
+      "moveSpeed": 6,
+      "behaviorType": "chase_contact",
+      "prefabPath": "Prefabs/Character/Monster4"
+    },
+    {
+      "id": "monster_5",
+      "name": "怪物5",
+      "maxHp": 20,
+      "attack": 15,
+      "defense": 6,
+      "moveSpeed": 6,
+      "behaviorType": "chase_contact",
+      "prefabPath": "Prefabs/Character/Monster5"
+    },
+    {
+      "id": "monster_6",
+      "name": "怪物6",
+      "maxHp": 18,
+      "attack": 18,
+      "defense": 8,
+      "moveSpeed": 0,
+      "behaviorType": "ranged_fireball",
+      "prefabPath": "Prefabs/Character/Monster6"
+    },
+    {
+      "id": "boss_1",
+      "name": "Boss1",
+      "maxHp": 100,
+      "attack": 12,
+      "defense": 8,
+      "moveSpeed": 6,
+      "behaviorType": "boss",
+      "prefabPath": "Prefabs/Character/Boss1"
+    },
+    {
+      "id": "boss_2",
+      "name": "Boss2",
+      "maxHp": 300,
+      "attack": 18,
+      "defense": 10,
+      "moveSpeed": 4,
+      "behaviorType": "boss_charge",
+      "prefabPath": "Prefabs/Character/Boss2"
+    }
+  ]
+}

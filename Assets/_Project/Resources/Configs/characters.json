@@ -1,0 +1,30 @@
+{
+  "characters": [
+    {
+      "id": "warrior",
+      "name": "战士",
+      "attackType": "melee",
+      "level": 0,
+      "maxHp": 15,
+      "attack": 9,
+      "defense": 7,
+      "moveSpeed": 10,
+      "critRate": 20,
+      "prefabPath": "Prefabs/Character/Player1",
+      "animPrefix": "P001"
+    },
+    {
+      "id": "archer",
+      "name": "弓手",
+      "attackType": "ranged",
+      "level": 0,
+      "maxHp": 12,
+      "attack": 12,
+      "defense": 4,
+      "moveSpeed": 8,
+      "critRate": 25,
+      "prefabPath": "Prefabs/Character/Player2",
+      "animPrefix": "P002"
+    }
+  ]
+}
